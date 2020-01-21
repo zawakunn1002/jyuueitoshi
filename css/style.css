@@ -1,0 +1,1699 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top {
+  background-image: url(../img/top-back.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.top .top__logo {
+  width: 100%;
+  max-width: 1280px;
+  margin: 20px auto 0 auto;
+}
+
+.top .top__logo img {
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  vertical-align: middle;
+}
+
+.top .top__logo img:nth-child(1) {
+  margin-right: 22px;
+}
+
+.top .top__logo a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.top .top__logo button span::before {
+  background-color: white !important;
+}
+
+.top .top__logo button span::after {
+  background-color: white !important;
+}
+
+.top .top__logo button span {
+  background-color: white !important;
+}
+
+.top .top__logo button p {
+  color: white !important;
+  margin: 15px 100px 0 0;
+  font-size: 11px;
+}
+
+.top .top__title {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.top .top__title img {
+  width: 90%;
+  height: 100%;
+}
+
+.top .top__sub {
+  position: absolute;
+  top: 28%;
+  left: 13%;
+}
+
+.top .top__sub img {
+  width: 90%;
+  height: 100%;
+}
+
+.top .top__text {
+  width: 100%;
+  margin: 60% 0 30% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top .top__text .top__text__left {
+  width: 9%;
+  margin-left: 15.5%;
+}
+
+.top .top__text .top__text__left p {
+  color: white;
+  font-size: 14px;
+  font-family: "Kozuka Gothic Pr6N";
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  line-height: 1.941;
+}
+
+.top .top__text .top__text__right {
+  width: 29.5%;
+  margin-left: 32.7%;
+}
+
+.top .top__text .top__text__right p {
+  color: white;
+  font-size: 11px;
+  font-family: "Kozuka Gothic Pr6N";
+}
+
+.contents {
+  width: 100%;
+  background-image: url(../img/title-back.jpg);
+  height: auto;
+  top: -135px;
+  margin: 0  auto  -135px auto;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.contents .contents__box {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contents .contents__box .contents__service1 {
+  width: 100%;
+  max-width: 1138px;
+  height: 493px;
+  margin: 198px auto;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__start {
+  width: 53%;
+  height: 413px;
+  background-color: #253242;
+  float: left;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-title {
+  font-size: 25px;
+  padding-top: 14.5%;
+  color: white;
+  text-align: center;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-special {
+  font-size: 16px;
+  font-family: "Lato";
+  color: white;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  margin: 136px 0 0 12%;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-white {
+  width: 1px;
+  height: 300px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(13%, white), color-stop(13%, black), to(black));
+  background: linear-gradient(180deg, white 0%, white 13%, black 13%, black 100%);
+  margin: 20px 0 0 17%;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__image {
+  width: 85%;
+  height: 72%;
+  margin: -45% 0 0 17%;
+  float: left;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__text p {
+  font-family: 'Lato';
+}
+
+.contents .contents__box .contents__service1 .contents__service1__text p span {
+  letter-spacing: -0.1em;
+  margin: 0 2%;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__text p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__text p:nth-child(1) {
+  color: #145fa9;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__text p:nth-child(2) {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 5px 10px 5px;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__text p:nth-child(3) {
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service1 .contents__service1__text p:nth-child(4) {
+  text-align: right;
+}
+
+.contents .contents__box .contents__service2 {
+  width: 100%;
+  max-width: 1138px;
+  margin: 100px auto;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text p {
+  font-family: 'Lato';
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text p span {
+  letter-spacing: -0.1em;
+  margin: 0 2%;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text p:nth-child(1) {
+  color: #145fa9;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text p:nth-child(2) {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text p:nth-child(3) {
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__text p:nth-child(4) {
+  text-align: right;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__image {
+  width: 80%;
+  margin: 8% auto 0 auto;
+}
+
+.contents .contents__box .contents__service2 .contents__service2__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents .contents__box .contents__service3 {
+  width: 100%;
+  max-width: 1138px;
+  margin: 0 auto;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text p {
+  font-family: 'Lato';
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text p span {
+  letter-spacing: -0.1em;
+  margin: 0 2%;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text p:nth-child(1) {
+  color: #145fa9;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text p:nth-child(2) {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text p:nth-child(3) {
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__text p:nth-child(4) {
+  text-align: right;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__image {
+  width: 80%;
+  margin: 8% auto 0 auto;
+}
+
+.contents .contents__box .contents__service3 .contents__service3__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents .contents__box .contents__service4 {
+  width: 100%;
+  max-width: 1138px;
+  margin: 100px auto 0 auto;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text p {
+  font-family: 'Lato';
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text p span {
+  letter-spacing: -0.1em;
+  margin: 0 2%;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text p:nth-child(1) {
+  color: #145fa9;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text p:nth-child(2) {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px 5px 10px 5px;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text p:nth-child(3) {
+  font-size: 14px;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__text p:nth-child(4) {
+  text-align: right;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__image {
+  width: 80%;
+  margin: 8% auto 0 auto;
+}
+
+.contents .contents__box .contents__service4 .contents__service4__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.contents .contents__box .contents__job {
+  width: 50%;
+  height: 150px;
+  background-color: #253242;
+  margin: -120px 0 0 50%;
+}
+
+.job {
+  width: 100%;
+  background-image: url(../img/grabu.jpg);
+  background-position: center;
+  height: 1900px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.job .job__box {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  z-index: 6;
+}
+
+.job .job__box .job__title {
+  width: 50%;
+  height: 180px;
+  max-width: 544px;
+  background-color: #253242;
+  margin: 0 0 0 50%;
+  position: relative;
+  z-index: 10;
+}
+
+.job .job__box .job__title p {
+  color: white;
+}
+
+.job .job__box .job__title p:nth-child(1) {
+  font-size: 25px;
+  text-align: center;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+.job .job__box .job__title p:nth-child(2) {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-family: 'Lato';
+  margin-left: 85%;
+}
+
+.job .job__box .job__title .job__border {
+  width: 1px;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(97.7%, black), color-stop(97.7%, white), to(white));
+  background: linear-gradient(180deg, black 0%, black 97.7%, white 97.7%, white 100%);
+  height: 1650px;
+  margin: 10% 0 0 90%;
+}
+
+.job .job__box .job__logo {
+  width: 40%;
+  position: relative;
+  z-index: 15;
+  margin: 0 0 20% 0;
+}
+
+.job .job__box .job__logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.job .job__box .job__image {
+  width: 75%;
+  margin: -50% 0 0 15%;
+  position: relative;
+  z-index: 12;
+}
+
+.job .job__box .job__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.job .job__box .job__introduction {
+  background-color: #253242;
+  width: 70%;
+  margin: -15% 0 0 0;
+  position: relative;
+  z-index: 13;
+}
+
+.job .job__box .job__introduction p {
+  margin: 10%;
+  color: white;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+.job .job__box .job__introduction p a {
+  color: white;
+  text-decoration: none;
+}
+
+.job .job__box .job__introduction p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.job .job__box .job__interview {
+  max-width: 960px;
+}
+
+.job .job__box .job__interview .job__interview__image {
+  width: 294px;
+  height: 451px;
+  margin: 0 auto 20px auto;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.job .job__box .job__interview .job__interview__image a img {
+  width: 72%;
+  display: inline-block;
+  margin: 40px 0 0 40px;
+}
+
+.job .job__box .job__interview .job__interview__image a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.job .job__box .job__interview .job__interview__image p {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  width: 72%;
+  margin: 15px 0 0 40px;
+  color: #2f2f2f;
+}
+
+.job .job__box .job__interview .job__interview__image .job__interview__text {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-size: 30px;
+  font-family: "Lato";
+  color: #145fa9;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  font-weight: bold;
+  margin: -140% 0 0 77%;
+}
+
+.job .job__back {
+  position: absolute;
+  width: 100%;
+  background-color: #253242;
+  height: 100px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.job .job__back p {
+  position: absolute;
+  bottom: 18%;
+  right: 12%;
+  color: white;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+.job .job__back p a {
+  color: white;
+  text-decoration: none;
+}
+
+.job .job__back p a img {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.job .job__back p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.keytalk {
+  width: 100%;
+  background-image: url(../img/keytalk-back.jpg);
+  background-size: cover;
+  height: 560px;
+  overflow: hidden;
+}
+
+.keytalk .keytalk__image {
+  width: 89%;
+  height: 434px;
+  background-image: url(../img/keytalk.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 18%;
+  z-index: 2;
+}
+
+.keytalk .keytalk__image .keytalk__image__title {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.keytalk .keytalk__image .keytalk__image__text {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.keytalk .keytalk__image .keytalk__image__border {
+  width: 1px;
+  height: 300px;
+  background-color: black;
+  margin: 20px 0 0 30px;
+}
+
+.keytalk a {
+  color: black;
+  text-decoration: none;
+}
+
+.keytalk a .keytalk__box {
+  width: 70%;
+  max-width: 377px;
+  background-color: white;
+  margin: -70% auto 0 auto;
+  z-index: 1;
+}
+
+.keytalk a .keytalk__box p {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+.keytalk a .keytalk__box p:hover {
+  opacity: 0.7;
+}
+
+.keytalk a .keytalk__box p:nth-child(1) {
+  font-size: 11px;
+}
+
+.keytalk a .keytalk__box p:nth-child(2) {
+  font-size: 15px;
+}
+
+.keytalk a .keytalk__box img {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.keytalk a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.workstyle {
+  width: 100%;
+  height: 1100px;
+  background-color: #384653;
+  overflow: hidden;
+  position: relative;
+}
+
+.workstyle .workstyle__title p {
+  color: white;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 0.3%;
+  right: 7%;
+}
+
+.workstyle .workstyle__text {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  color: white;
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  top: 10%;
+  right: 2%;
+}
+
+.workstyle .workstyle__image {
+  width: 100%;
+  height: 58%;
+  max-width: 1171px;
+  margin: 0 auto;
+  background-image: url(../img/workstyle.png);
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.workstyle .workstyle__image .workstyle__image__box {
+  position: relative;
+  width: 70%;
+  height: 40%;
+  margin: 10% auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.workstyle .workstyle__image .workstyle__image__box img {
+  width: 75%;
+  height: 75%;
+  display: inline-block;
+  margin: 10px 0 0 12.5%;
+}
+
+.workstyle .workstyle__image .workstyle__image__box .image__title {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+  display: inline-block;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  color: #145fa9;
+  font-size: 25px;
+}
+
+.workstyle .workstyle__image .workstyle__image__box p {
+  text-align: right;
+  font-size: 16px;
+  font-family: 'Lato';
+}
+
+.workstyle .workstyle__image .workstyle__image__box p a {
+  color: black;
+  text-decoration: none;
+}
+
+.workstyle .workstyle__image .workstyle__image__box p a img {
+  width: 20%;
+  height: 20%;
+  margin: 10px 0 0 5%;
+}
+
+.workstyle .workstyle__image .workstyle__image__box p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.workstyle .workstyle__recruit {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 42%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__title {
+  width: 50%;
+  height: 90%;
+  margin: 28px 0 0 0;
+  background-color: #253242;
+  position: relative;
+  z-index: 1;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__title .workstyle__recruit__title-text {
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  font-size: 25px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__title .workstyle__recruit__title-border {
+  width: 1px;
+  background-color: white;
+  height: 200px;
+  margin: 6% 0 0 18.75%;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__title .workstyle__recruit__title-tt {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin: 5% 0 0 12%;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__box {
+  width: 60%;
+  height: 30%;
+  margin: 25% 0 0 -25%;
+  z-index: 2;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__box div img {
+  width: 90%;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__box div p {
+  text-align: right;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__box div p a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__box div p a img {
+  width: 30%;
+}
+
+.workstyle .workstyle__recruit .workstyle__recruit__box div p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #253242;
+  position: relative;
+}
+
+footer .footer__box {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .footer__box .footer__box__detail {
+  margin-right: 2%;
+  width: 46%;
+}
+
+footer .footer__box .footer__box__detail p {
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-family: 'Lato';
+  color: white;
+}
+
+footer .footer__box .footer__box__detail p a {
+  font-size: 14px;
+  font-family: 'Lato';
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer__box .footer__box__detail p a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+footer .footer__box .footer__box__detail:nth-child(odd) {
+  margin-left: 2%;
+}
+
+footer .pagetop a {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  position: absolute;
+  top: -12%;
+  right: 2%;
+  z-index: 10;
+}
+
+footer .pagetop a span {
+  position: absolute;
+  color: white;
+  top: 33%;
+  right: 45%;
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+footer .footer__text {
+  width: 100%;
+  padding-bottom: 48px;
+}
+
+footer .footer__text p {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Kozuka Gothic Pr6N";
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .top .top__logo {
+    margin: 20px 0 0 15px;
+  }
+  .top .top__logo img {
+    width: 25%;
+    height: 25%;
+  }
+  .top .top__logo img:nth-child(1) {
+    margin-right: 22px;
+  }
+  .top .top__sub {
+    top: 32%;
+  }
+  .top .top__text {
+    width: 100%;
+    margin: 60% 0 30% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .top .top__text .top__text__left p {
+    font-size: 17px;
+  }
+  .top .top__text .top__text__right p {
+    font-size: 14px;
+  }
+  .contents {
+    z-index: 1;
+  }
+  .contents .contents__box .contents__service1 {
+    width: 100%;
+    max-width: 1138px;
+    height: 493px;
+    margin-top: 198px;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start {
+    width: 53%;
+    height: 413px;
+    background-color: #253242;
+    float: left;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-title {
+    font-size: 25px;
+    padding-top: 14.5%;
+    color: white;
+    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-special {
+    font-size: 16px;
+    font-family: "Lato";
+    color: white;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    margin: 20% 0 0 12%;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-white {
+    background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(12%, white), color-stop(12%, black), to(black));
+    background: linear-gradient(180deg, white 0%, white 12%, black 12%, black 100%);
+    height: 580px;
+    margin: 12px 0 0 14%;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__image {
+    width: 85%;
+    height: 72%;
+    margin: -30% 0 0 17%;
+    float: left;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p {
+    font-family: 'Lato';
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(1) {
+    color: #145fa9;
+    text-align: center;
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(2) {
+    font-size: 20px;
+    margin: 10px 5px 10px 5px;
+    text-align: center;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(4) {
+    text-align: right;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(1) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(2) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(1) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(2) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service4 {
+    margin: 100px auto 0 auto;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(1) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(2) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .job {
+    height: 1960px;
+  }
+  .job .job__box .job__title .job__border {
+    width: 1px;
+    height: 1700px;
+    margin: 6% 0 0 87%;
+    background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(98%, black), color-stop(98%, white), to(white));
+    background: linear-gradient(180deg, black 0%, black 98%, white 98%, white 100%);
+  }
+  .keytalk {
+    height: 570px;
+  }
+  .keytalk .keytalk__image {
+    max-height: 430px;
+    z-index: 2;
+    margin-top: 8%;
+  }
+  .keytalk .keytalk__image .keytalk__image__title {
+    font-size: 30px;
+    text-align: left;
+    padding-top: 40px;
+    margin-left: 12.2%;
+  }
+  .keytalk .keytalk__image .keytalk__image__text {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .keytalk .keytalk__image .keytalk__image__border {
+    height: 260px;
+    margin: 20px 0 0 40px;
+  }
+  .keytalk a .keytalk__box {
+    width: 35%;
+    height: 104px;
+    max-width: 375px;
+    margin: -7% 0 0 53%;
+    overflow: hidden;
+  }
+  .keytalk a .keytalk__box p {
+    margin-left: 3%;
+  }
+  .keytalk a .keytalk__box p:nth-child(1) {
+    font-size: 14px;
+    margin: 9% 0 0 3%;
+  }
+  .keytalk a .keytalk__box p:nth-child(2) {
+    font-size: 20px;
+  }
+  .keytalk a .keytalk__box img {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  .workstyle {
+    height: auto;
+    padding-bottom: 88px;
+  }
+  .workstyle .workstyle__title p {
+    font-size: 25px;
+    top: 1%;
+    right: 9%;
+  }
+  .workstyle .workstyle__text {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+  }
+  .workstyle .workstyle__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .workstyle .workstyle__image .workstyle__image__box {
+    width: 40%;
+    height: 60%;
+    margin: 10% 1% 10%;
+    padding: 2% 0;
+  }
+  .workstyle .workstyle__image .workstyle__image__box img {
+    margin: 10px 0 0 12.5%;
+  }
+  .workstyle .workstyle__image .workstyle__image__box .image__title {
+    right: 6%;
+    font-size: 30px;
+  }
+  .workstyle .workstyle__image .workstyle__image__box p {
+    font-size: 20px;
+  }
+  .workstyle .workstyle__image .workstyle__image__box p a img {
+    width: 10%;
+    height: 10%;
+    margin: 10px 15% 0 1%;
+  }
+  .workstyle .workstyle__image .workstyle__image__box:nth-child(1) {
+    margin: 10% 1% 10% 10%;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__title {
+    width: 27%;
+    height: 100%;
+    margin: 28px 0 0 0;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__title .workstyle__recruit__title-text {
+    text-align: right;
+    padding-top: 10px;
+    font-size: 30px;
+    margin: 7% 7% 0 0;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__title .workstyle__recruit__title-border {
+    width: 1px;
+    height: 150px;
+    margin: 6% 0 0 18.75%;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__title .workstyle__recruit__title-tt {
+    margin: 5% 0 10% 15%;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box {
+    width: 80%;
+    height: 80%;
+    margin: 15% 0 0 -12%;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box div {
+    width: 348px;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box div img {
+    width: 100%;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box div p a {
+    font-size: 18px;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box div p a img {
+    width: 15%;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box div:nth-child(1) {
+    margin-right: 28px;
+  }
+  footer .footer__box {
+    width: 78.125%;
+    max-width: 1000px;
+  }
+  footer .footer__box .footer__box__detail {
+    margin-right: 8.5%;
+    width: auto;
+  }
+  footer .footer__box .footer__box__detail:nth-child(odd) {
+    margin-left: 0;
+  }
+  footer .footer__box .footer__box__detail:nth-child(5) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .top .top__logo {
+    margin: 28px 0 0 43px;
+    max-width: 1280px;
+  }
+  .top .top__logo img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+  }
+  .top .top__logo img:nth-child(1) {
+    margin-right: 22px;
+  }
+  .top .top__title {
+    position: absolute;
+    top: 27%;
+    left: 10.9%;
+  }
+  .top .top__sub {
+    position: absolute;
+    top: 36%;
+    left: 11.5%;
+  }
+  .top .top__text {
+    width: 100%;
+    margin-top: 38%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .top .top__text .top__text__left {
+    width: 9%;
+    margin-left: 18.5%;
+  }
+  .top .top__text .top__text__left p {
+    line-height: 1.941;
+  }
+  .top .top__text .top__text__right {
+    width: 29.5%;
+    margin-left: 36%;
+  }
+  .top .top__text .top__text__right p {
+    line-height: 2.357;
+  }
+  .contents {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    height: 2330px;
+  }
+  .contents .contents__box .contents__service1 {
+    width: 100%;
+    max-width: 1138px;
+    height: 493px;
+    margin-top: 198px;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start {
+    width: 36.8%;
+    height: 413px;
+    background-color: #253242;
+    float: left;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-title {
+    font-size: 30px;
+    padding-top: 14.5%;
+    color: white;
+    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-special {
+    font-size: 16px;
+    font-family: "Lato";
+    color: white;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    margin: 20% 0 0 12%;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-white {
+    width: 1px;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(12.5%, white), color-stop(12.5%, black), to(black));
+    background: linear-gradient(180deg, white 0%, white 12.5%, black 12.5%, black 100%);
+    margin: 12px 0 0 14%;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__image {
+    width: 56%;
+    height: 72%;
+    margin: -30% 0 0 14%;
+    float: left;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text {
+    width: 20%;
+    float: left;
+    margin: -25% 0 0 8%;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p {
+    font-family: 'Lato';
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(1) {
+    color: #145fa9;
+    text-align: left;
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(2) {
+    font-size: 20px;
+    margin: 10px 5px 10px 5px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text p:nth-child(4) {
+    text-align: right;
+  }
+  .contents .contents__box .contents__service2 {
+    width: 97%;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text {
+    float: left;
+    width: 30%;
+    margin: 10% 5% 0 15%;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(1) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(2) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__image {
+    float: left;
+    width: 50%;
+  }
+  .contents .contents__box .contents__service3 {
+    width: 97%;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text {
+    float: right;
+    width: 30%;
+    margin: 10% 0% 0 5%;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(1) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(2) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__image {
+    float: right;
+    width: 50%;
+  }
+  .contents .contents__box .contents__service4 {
+    width: 97%;
+    margin-bottom: 135px;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text {
+    float: left;
+    width: 30%;
+    margin: 10% 5% 0 15%;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(1) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(2) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__image {
+    float: left;
+    width: 50%;
+  }
+  .contents .contents__box .contents__job {
+    width: 50%;
+    max-width: 544px;
+    height: 300px;
+    margin: -200px 0 0 50%;
+  }
+  .job {
+    height: 1250px;
+  }
+  .job .job__box .job__title {
+    width: 50%;
+    max-width: 544px;
+    height: 200px;
+    background-color: #253242;
+    margin: 0 0 0 50%;
+    position: relative;
+  }
+  .job .job__box .job__title .job__border {
+    width: 1px;
+    height: 300px;
+    background: black;
+    margin: 8% 0 0 87%;
+  }
+  .job .job__box .job__logo {
+    width: 40%;
+    max-width: 311px;
+    position: relative;
+    margin: 0 0 25% 0%;
+  }
+  .job .job__box .job__logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .job .job__box .job__image {
+    width: 75%;
+    max-width: 640px;
+    margin: -50% 0 0 15%;
+    position: relative;
+  }
+  .job .job__box .job__image img {
+    width: 100%;
+    height: 100%;
+  }
+  .job .job__box .job__introduction {
+    background-color: #253242;
+    width: 70%;
+    max-width: 478px;
+    margin: -5% 0 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .job .job__box .job__introduction p {
+    color: white;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  }
+  .job .job__box .job__introduction p:nth-child(1) {
+    font-size: 20px;
+    margin: 5% 0 0 10%;
+  }
+  .job .job__box .job__introduction p:nth-child(2) {
+    font-size: 14px;
+    margin: 0 0 5% 10%;
+  }
+  .job .job__box .job__interview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 15% auto 0 auto;
+  }
+  .job .job__box .job__interview .job__interview__image img {
+    width: 72%;
+    display: inline-block;
+    margin: 40px 0 0 40px;
+  }
+  .job .job__box .job__interview .job__interview__image:nth-child(2) {
+    margin: 5% auto 0 auto;
+  }
+  .job .job__back {
+    height: 419px;
+  }
+  .keytalk a .keytalk__box p {
+    margin-left: 13%;
+  }
+  .keytalk a .keytalk__box p:nth-child(1) {
+    margin: 7% 0 0 13%;
+  }
+  .workstyle .workstyle__title p {
+    font-size: 30px;
+    top: 3%;
+    right: 14%;
+  }
+  .workstyle .workstyle__text {
+    position: absolute;
+    font-size: 18px;
+    top: 10%;
+    right: 2%;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__title {
+    height: 501px;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box {
+    margin: 18% 0 0 -10%;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .contents {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    height: 2400px;
+  }
+  .contents .contents__box .contents__service1 {
+    width: 100%;
+    max-width: 1280px;
+    height: 493px;
+    margin-top: 198px;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start {
+    width: 36.8%;
+    height: 413px;
+    background-color: #253242;
+    float: left;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-title {
+    padding-top: 14.5%;
+    color: white;
+    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-special {
+    font-size: 16px;
+    font-family: "Lato";
+    color: white;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    margin: 20% 0 0 12%;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__start .contents__service1__start-white {
+    background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(7%, white), color-stop(8%, black), to(black));
+    background: linear-gradient(180deg, white 0%, white 7%, black 8%, black 100%);
+  }
+  .contents .contents__box .contents__service1 .contents__service1__image {
+    width: 50%;
+    height: 72%;
+    margin: -20% 0 0 14%;
+    float: left;
+  }
+  .contents .contents__box .contents__service1 .contents__service1__text {
+    width: 25%;
+    float: left;
+    margin: -15% 0 0 4%;
+  }
+  .contents .contents__box .contents__service2 {
+    width: 97%;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text {
+    float: left;
+    width: 30%;
+    margin: 10% 5% 0 10%;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(1) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(2) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service2 .contents__service2__image {
+    float: left;
+    width: 50%;
+  }
+  .contents .contents__box .contents__service3 {
+    width: 97%;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text {
+    float: right;
+    width: 30%;
+    margin: 10% 0% 0 10%;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(1) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(2) {
+    font-size: 20px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service3 .contents__service3__image {
+    float: right;
+    width: 50%;
+  }
+  .contents .contents__box .contents__service4 {
+    width: 97%;
+    margin-bottom: 135px;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text {
+    float: left;
+    width: 30%;
+    margin: 10% 5% 0 10%;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(1) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(2) {
+    font-size: 20px;
+    text-align: left;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__text p:nth-child(3) {
+    font-size: 14px;
+  }
+  .contents .contents__box .contents__service4 .contents__service4__image {
+    float: left;
+    width: 50%;
+  }
+  .contents .contents__box .contents__job {
+    width: 50%;
+    max-width: 538px;
+    height: 287px;
+    margin: -340px 0 0 58%;
+  }
+  .job {
+    height: 1273px;
+  }
+  .job .job__box .job__title {
+    height: 268px;
+    margin: 0 0 0 58%;
+    max-width: 538px;
+  }
+  .job .job__box .job__title p:nth-child(1) {
+    font-size: 30px;
+  }
+  .job .job__box .job__title p:nth-child(2) {
+    font-size: 18px;
+    margin: 10% 0 0 85%;
+  }
+  .job .job__box .job__title .job__border {
+    width: 1px;
+    height: 680px;
+    margin: 5% 0 0 87%;
+    background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(85%, black), color-stop(85%, white), to(white));
+    background: linear-gradient(180deg, black 0%, black 85%, white 85%, white 100%);
+  }
+  .job .job__box .job__logo {
+    width: 40%;
+    max-width: 311px;
+    height: 136px;
+    margin: -7% 0 7% 15%;
+  }
+  .job .job__box .job__logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .job .job__box .job__image {
+    width: 75%;
+    max-width: 640px;
+    margin: -22% 0 0 34%;
+  }
+  .job .job__box .job__image img {
+    width: 100%;
+    height: 100%;
+  }
+  .job .job__box .job__introduction {
+    height: 189px;
+    margin: -8% 0 0 14%;
+  }
+  .job .job__box .job__introduction p:nth-child(1) {
+    font-size: 20px;
+    margin: 10% 0 5% 20%;
+  }
+  .job .job__box .job__introduction p:nth-child(2) {
+    font-size: 14px;
+    margin: 0 16% 0 20%;
+  }
+  .job .job__box .job__interview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5% auto 0 auto;
+  }
+  .job .job__box .job__interview .job__interview__image img {
+    width: 72%;
+    display: inline-block;
+    margin: 40px 0 0 40px;
+  }
+  .job .job__box .job__interview .job__interview__image:nth-child(2) {
+    margin: 5% auto 0 auto;
+  }
+  .keytalk {
+    height: 560px;
+  }
+  .keytalk .keytalk__image {
+    margin-top: 4%;
+  }
+  .keytalk a .keytalk__box {
+    margin: -4% 0 0 58.2%;
+  }
+  .keytalk a .keytalk__box p {
+    margin-left: 13%;
+  }
+  .keytalk a .keytalk__box p:nth-child(1) {
+    margin: 6% 0 0 13%;
+  }
+  .workstyle {
+    padding-bottom: 0;
+  }
+  .workstyle .workstyle__title p {
+    font-size: 30px;
+    top: 11%;
+    right: 14%;
+  }
+  .workstyle .workstyle__text {
+    top: 15%;
+    right: 4%;
+  }
+  .workstyle .workstyle__image {
+    margin: 88px auto 0 auto;
+  }
+  .workstyle .workstyle__image .workstyle__image__box {
+    max-width: 460px;
+    margin: 15% 2% 10%;
+  }
+  .workstyle .workstyle__image .workstyle__image__box:nth-child(1) {
+    margin: 15% 2% 10% 7%;
+  }
+  .workstyle .workstyle__recruit {
+    margin: 0 auto 88px auto;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__title .workstyle__recruit__title-tt {
+    margin: 6% 0 10% 16%;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box {
+    margin: 12% 0 0 -6.5%;
+  }
+  .workstyle .workstyle__recruit .workstyle__recruit__box div {
+    width: 380px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
